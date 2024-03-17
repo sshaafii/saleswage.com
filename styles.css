@@ -1,0 +1,115 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #EEEEEE;
+    color: #00ADB5;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8em;
+    margin-left: 35px;
+}
+
+.nav {
+    margin-right: 35px;
+    display: flex;
+    
+}
+
+.nav-item {
+    color: #00ADB5;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.nav-item:hover {
+    color: #00ADB5;
+}
+
+/* Rest of your styles */
+
+
+
+.contribute-wage {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100px; /* Set a height for the area, adjust as needed */
+    background-color: #EEEEEE; /* This is an example background color */
+}
+
+.contribute-btn {
+    width: 350px;
+    padding: 10px 25px;
+    background-color: #00ADB5; /* Purple background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 5);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.contribute-btn:hover {
+    background-color: #00ADB5; /* Slightly lighter purple on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 2.5);
+}
+
+.salary-list-container {
+    width: 80%; /* Adjust the width as needed */
+    margin: 20px auto; /* Top and bottom margin for spacing, auto for left and right to center */
+    overflow-x: auto; /* Makes the table scrollable horizontally on small screens */
+}
+
+.salary-list-container table {
+    width: 100%; /* Ensures the table fills its container */
+    margin: 0 auto; /* Centers the table, has an effect if the table has a set width less than the container */
+    border-collapse: collapse; /* Improves the appearance of the borders */
+}
+
+.salary-list-container th,
+.salary-list-container td {
+    text-align: center; /* Aligns the text to the left within table cells */
+    padding: 10px; /* Adds space inside cells */
+    border-bottom: 1px solid #ddd; /* Adds a bottom border to each cell for separation */
+}
+
+/* Additional styling for the header to make it stand out */
+.salary-list-container thead th {
+    background-color: #EEEEEE; /* Light grey background */
+    text-align: center; /* Centers the text in header cells */
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.main-header {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sub-header {
+    font-size: smaller;
+    font-weight: thin;
+}
